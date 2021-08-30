@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="buttonContinue">Calculate</string>
+    <string name="buttonBack"> Reset</string>
+    <string name="buttonAddUser">Add User</string>
+    <string name="buttonAddTask">Add Task</string>
+    <string name="header">Task Divider</string>
+    <string name="buttonCalculate"> Calculate</string>
+</resources>

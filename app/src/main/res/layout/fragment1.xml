@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Contraits"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCCECE"
+    tools:context=".Fragment1">
+
+    <EditText
+        android:id="@+id/addTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="224dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/allan"
+        android:text="@string/buttonContinue"
+        android:textAlignment="center"
+        android:textColor="#433C3C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#E4A9A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddUser"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="cursive"
+        android:text="@string/buttonAddTask"
+        android:textAlignment="center"
+        android:textColor="#433C3C"
+        android:textStyle="bold"
+        app:backgroundTint="#E4A9A9"
+        app:layout_constraintEnd_toEndOf="@+id/addTask"
+        app:layout_constraintStart_toStartOf="@+id/addTask"
+        app:layout_constraintTop_toBottomOf="@+id/addTask" />
+
+    <EditText
+        android:id="@+id/addUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAddTask"
+        app:layout_constraintStart_toStartOf="@+id/buttonAddTask"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddTask" />
+
+    <Button
+        android:id="@+id/buttonAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="cursive"
+        android:text="@string/buttonAddUser"
+        android:textAlignment="center"
+        android:textColor="#433C3C"
+        android:textStyle="bold"
+        app:backgroundTint="#E4A9A9"
+        app:layout_constraintEnd_toEndOf="@+id/addUser"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="@+id/addUser"
+        app:layout_constraintTop_toBottomOf="@+id/addUser" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#E4A9A9"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/allan"
+            android:paddingTop="20dp"
+            android:text="@string/header"
+            android:textAlignment="center"
+            android:textColor="#433C3C"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
