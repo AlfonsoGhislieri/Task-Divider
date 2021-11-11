@@ -1,22 +1,11 @@
-# Task Divider
-
-### Video Demo:  
-https://www.youtube.com/watch?v=QoK3JMEjaHY&t=1s
-
-### Description:
-
-I decided to create an Android Application called "Task Divider" which divides tasks 
-for users. This was achieved using Android Studio and Java, I used this as an opportunity to learn a
-language and is the first application I have ever created.
-
 ### Main:
 <p>
-The main class makes the first Fragment show when the app is launched by the user and hides 
+Makes Fragment1 show when the app is launched by the user and hides 
 the action bar. </p>
 
 ### Fragment1:
 <p>
-The Fragment1 class takes care of storing the data inputted by the user. When the user fills in a 
+Fragment1 takes care of storing the data inputted by the user. When the user fills in a 
 editText field and clicks the appropriate button, the OnClick method adds the data to either of 
 the two empty ArrayLists: "users" and "tasks". Users are required to input a minimum of 1 task 
 and 2 users, with no maximum, and no empty fields can be submitted. 
